@@ -1,0 +1,117 @@
+// module.exports = {
+//   content: [
+//     './src/**/*.{js,jsx,ts,tsx}',
+//     './pages/**/*.{html,js}',
+//     './components/**/*.{html,js}',
+//   ],
+//   theme: {
+//     extend: {
+//       colors: {
+//         transparent: 'transparent',
+//         white: '#ffffff',
+//         primary: 'rgba(15, 55, 90, 1)',
+//         secondary: 'rgba(44, 162, 202, 1)',
+//         skyblue: 'rgba(233, 245, 249, 1)',
+//         tertiary: 'rgba(246, 152, 37, 1)',
+//         gray: '#E4E4E4',
+//         darkgray: '#585858',
+//         dropDown: '#e0edf5',
+//       },
+//       fontSize: {
+//         xs: '.75rem',
+//         sm: '.875rem',
+//         tiny: '.875rem',
+//         base: '1rem',
+//         lg: '1.125rem',
+//         lg: '2.25rem',
+//         xl: '3rem',
+//       },
+//       fontWeight: {
+//         normal: 400,
+//         medium: 500,
+//         bold: 700,
+//         extrabold: 800,
+//         'extra-bold': 800,
+//       },
+//       fontFamily: {
+//         sans: ['Poppins', 'sans-serif'],
+//       },
+//       backgroundImage: theme => ({
+//         heading: "url('/assets/icons/line.svg')",
+//         contact: "url('/assets/images/contact-area.png');",
+//         world: "url('/assets/images/world.svg')",
+//         section: "url('/assets/images/bg-net.svg')",
+//       }),
+//     },
+//   },
+
+//   plugins: [],
+// };
+
+module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#205363',
+        'primary-p300': '#2E788F',
+        secondary: '#58d96b',
+        tertiary: '#00d1ff',
+        dark: '#333',
+        light: '#f4f4f4',
+        white: '#ffffff',
+        'neutral-mid': '#505f79',
+        'neutral-mid-80': '#97A0AF',
+        'neutral-dark': '#061938',
+        'neutral-dark-900': '#061938',
+        'neutral-light': '#f4f5f7',
+        'neutral-light-50': '#C1C7D0',
+        'neutral-light-20': '#F4F5F7',
+        'neutral-light-40': '#DFE1E6',
+        'neutral-mid-300': '#5E6C84',
+        'neutral-mid-70': '#A5ADBA',
+        'light-grey': '#eeeeee',
+        success: '#006644',
+        error: '#b92500',
+        'error-light': '#ffefed',
+        'border-negative': '#f1998e',
+        'content-negative': '#e11900',
+        warn: '#ff8b00',
+        'light-input': '#ebecf0',
+        'dash-green': 'rgba(26, 48, 55, 1)',
+        'link-text': 'rgba(193, 199, 208, 1)',
+        'card-dark': '#1e1e1e',
+        'neutral-mid-60': '#B3BAC5',
+        'primary-600': '#378FAB',
+        'link-grey': '#858585',
+      },
+      fontSize: {
+        xs: '.75rem',
+        sm: '.875rem',
+        base: '1rem',
+        md: '1.75rem',
+        lg: '2.25rem',
+        xl: '3rem',
+      },
+      fontWeight: {
+        normal: 400,
+        medium: 500,
+        bolder: 600,
+        bold: 700,
+        extrabold: 800,
+      },
+      backgroundImage: theme => ({
+        stake: "url('/assets/images/bg-stake.svg')",
+        wpgc: "url('/assets/images/agro.jpeg')",
+        bgCt: "url('/assets/images/bd-sec.svg')",
+        bgCt2: "url('/assets/images/bg-sec-t.svg')",
+      }),
+    },
+  },
+
+  plugins: [],
+};

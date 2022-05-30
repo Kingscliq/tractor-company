@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.float-anim {
+  animation: myAnim 5s ease-in-out 1s infinite normal forwards;
+  transition: animation 0.5s ease-in-out;
+}
+@keyframes myAnim {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.mobile-nav {
+  animation: mobile 1s ease 0s 1 normal forwards;
+  transition: animation 0.5s ease-in-out;
+}
+
+@keyframes mobile {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
