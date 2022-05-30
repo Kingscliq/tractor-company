@@ -8,8 +8,9 @@ const CtaTwo = () => {
           The World is Now At Your Feet
         </h1>
         <p className="text-white mt-4">
-          Nigeria's best B2B online and offline warehouse for industrial Heavy
-          Duty Supplies supplies,
+          {
+            " Nigeria's best B2B online and offline warehouse for industrial Heavy Duty Supplies supplies,"
+          }
         </p>
       </div>
     </section>
