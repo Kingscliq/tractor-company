@@ -11,7 +11,7 @@ import floatFour from './float-four.svg';
 import hero from './hero.png';
 import createProductWidget from './create-product-widget.svg';
 import marketplaceWidget from './marketplace-widget.svg';
-import siteLogo from './westpgc.png';
+import siteLogo from './noname.png';
 import tract from './tract.jpeg';
 import agro from './agro.jpeg';
 import bulldozer from './bulldozer.jpeg';

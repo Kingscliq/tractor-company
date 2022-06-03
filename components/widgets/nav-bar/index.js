@@ -28,9 +28,14 @@ const NavBar = () => {
         >
           <div className="flex items-center">
             <div className="flex items-center mr-6 cursor-pointer">
-              <Link href="/">
+              <Link href="/" passHref>
                 <span>
-                  <Image src={siteLogo} alt="Stakecut logo" />
+                  <Image
+                    src={siteLogo}
+                    alt="Stakecut logo"
+                    height={100}
+                    width={200}
+                  />
                 </span>
               </Link>
             </div>

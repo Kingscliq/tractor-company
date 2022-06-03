@@ -1,16 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
 import { lightLogo } from '../../../public/assets/icons';
+import { siteLogo } from '../../../public/assets/images';
 import Button from '../../elements/button';
 import NavLink from '../../elements/link';
 
 const MobileNav = () => {
   return (
-    <section className="fixed bg-primary w-64 h-full lg:hidden z-[100] flex justify-center items-start flex-col mobile-nav overflow-scroll">
+    <section className="fixed bg-dark w-64 h-full lg:hidden z-[100] flex justify-center items-start flex-col mobile-nav overflow-scroll">
       <div>
         <div className="flex items-center justify-between flex-col h-[600px]">
           <div className="px-4 mb-9">
-            <Image src={lightLogo} />
+            <Image src={siteLogo} alt="West Prime Global Concept" />
           </div>
           <div
             className={`lg:justify-between lg:flex flex-wrap items-start lg:items-center`}

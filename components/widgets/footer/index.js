@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex items-center justify-between flex-wrap">
         <div className="flex lg:items-center items-start lg:flex-row  flex-col">
           <div>
-            <Image src={siteLogo} />
+            <Image src={siteLogo} alt="West Prime Global Concept" />
           </div>
           <div>
             <div

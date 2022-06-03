@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import { loader } from '../../public/assets/icons';
 
-const btn = `text-sm font-medium cursor-pointer w-full lg:text-base text-sm flex items-center justify-center hover:opacity-90 transition ease duration-500`;
+const btn = `text-sm font-medium cursor-pointer w-full rounded-md lg:text-base text-sm flex items-center justify-center hover:opacity-90 transition ease duration-500`;
 
 const Button = ({
   type,
