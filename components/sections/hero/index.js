@@ -14,7 +14,7 @@ import Gallery from '../../elements/carousel';
 const Hero = () => {
   return (
     <section className="bg-wpgc bg-cover bg-no-repeat py-32 bg-opacity-95 bg-blend-overlay bg-dark">
-      <div className="grid grid-cols-2 gap-5 xl:px-48 lg:px-16 items-center px-4 mt-5">
+      <div className="grid grid-cols-2 gap-5 xl:px-48 lg:px-16 items-center px-4 mt-5 py-6">
         <div className="col-span-2 lg:col-span-1">
           <h2 className="lg:text-[32px] text-lg text-white font-bold">
             Importer and Exporter:

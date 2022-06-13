@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { money, moneytag } from '../../../public/assets/images';
 import Button from '../../elements/button';
+import Card from '../../elements/card';
 import Gallery from '../../elements/carousel';
 import FloatingCard from '../../widgets/floating-card';
 
@@ -32,7 +33,6 @@ const FloatingCards = () => {
           <FloatingCard
             icon={moneytag}
             heading="Send Us an Inquiry"
-            listOne="At West PGC, literally thousands of pieces of heavy equipment are available today."
             listTwo=" You can find these products by using our powerful yet simple search tool. Looking for a heavy construction machine? Simply narrow down your search by category of machine, location of the item, manufacturer, model year, or auction results."
           />
         </div>
@@ -62,6 +62,24 @@ const FloatingCards = () => {
       </div>
       <div className="lg:px-48">
         <Gallery />
+      </div>
+      <div className="lg:px-48 py-6">
+        <Card>
+          <h2 className="font-bold text-md mb-6">Contact Us</h2>
+          <p className="mb-4">
+            <span className="font-bold">Address:</span>
+            <p>Plot 544, Cadastral Zone -07-05, Arab Kubwa, FCT Abuja.</p>
+          </p>
+          <p className="mb-4">
+            <span className="font-bold">Phone:</span>
+            <p>09055555938</p>
+            <p> 07055066415</p>
+          </p>
+          <p>
+            <span className="font-bold">Email:</span>
+            <p>west.info.files@gmail.com</p>
+          </p>
+        </Card>
       </div>
     </section>
   );

@@ -1,0 +1,28 @@
+.card__container {
+  background-color: var(--white);
+  padding: 30px 30px 50px 30px;
+  margin: auto;
+}
+
+.dash__card {
+  padding: 22px;
+  border-radius: 1.25rem;
+  background-color: var(--white);
+}
+.dark__dash__card {
+  padding: 35px 22px;
+  border-radius: 1.25rem;
+  background-color: var(--card-dark);
+  margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .card__container {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .card__container {
+    padding: 20px;
+  }
+}
