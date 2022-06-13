@@ -18,11 +18,19 @@ import bulldozer from './bulldozer.jpeg';
 import harvester from './harvester.jpeg';
 import tractor from './tractor.jpeg';
 import silo from './silo.jpeg';
+import acura from './acura.png';
+import inifinity from './infinity.jpeg';
+import toyota from './toyota.jpeg';
+import toyota2 from './toyota.png';
 
 export {
   bgSec,
   bulldozer,
   tractor,
+  acura,
+  inifinity,
+  toyota,
+  toyota2,
   harvester,
   silo,
   agro,

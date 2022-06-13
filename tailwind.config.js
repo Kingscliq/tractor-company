@@ -57,7 +57,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#FE982A',
+        // primary: '#FE982A',
+        primary: '#db801d',
         'primary-p300': '#2E788F',
         secondary: '#6BC4A6',
         tertiary: '#00d1ff',

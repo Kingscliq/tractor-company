@@ -10,6 +10,7 @@ import Pricing from '../components/sections/pricing';
 import CtaTwo from '../components/sections/cta-two';
 import FloatingCards from '../components/sections/floating-cards';
 import Footer from '../components/widgets/footer';
+import CarSection from '../components/sections/sect-cars';
 
 export default function Home() {
   return (
@@ -29,8 +30,10 @@ export default function Home() {
       <MarketPlace />
       <Currency />
       <Pricing />
+      <CarSection />
       <CtaTwo />
       <FloatingCards />
+      
       <Footer />
     </>
   );

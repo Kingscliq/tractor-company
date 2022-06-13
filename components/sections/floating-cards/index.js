@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { money, moneytag } from '../../../public/assets/images';
 import Button from '../../elements/button';
+import Gallery from '../../elements/carousel';
 import FloatingCard from '../../widgets/floating-card';
 
 const FloatingCards = () => {
@@ -51,13 +52,16 @@ const FloatingCards = () => {
           </div>
         </div>
         <div className="lg:justify-self-end col-span-2 lg:col-span-1 lg:mt-0 ">
-          <Link href="#">
+          <Link href="#" passHref>
             <Button
               label="Contact Us"
               className="bg-primary text-white transition hover:opacity-95 duration-500 ease-linear w-64 py-3"
             />
           </Link>
         </div>
+      </div>
+      <div className="lg:px-48">
+        <Gallery />
       </div>
     </section>
   );
