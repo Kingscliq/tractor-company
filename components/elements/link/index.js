@@ -16,7 +16,7 @@ const NavLink = ({
       <a className="dropdown relative">
         <div
           className={[
-            'flex items-center content-between w-100 py-2 lg:py-4 lg:py-0 lg:w-auto mt-4 lg:mt-0 cursor-pointer dropdown relative',
+            'flex items-center content-between w-100 py-2 lg:py-4 lg:py-0 lg:w-auto mt-4 lg:mt-0 cursor-pointer dropdown relative text-sm',
             ,
             className,
           ].join(' ')}
