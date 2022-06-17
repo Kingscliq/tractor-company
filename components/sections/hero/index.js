@@ -1,13 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import {
-  floatFour,
-  floatOne,
-  floatThree,
-  floatTwo,
-  hero,
-} from '../../../public/assets/images';
 import Button from '../../elements/button';
 import Gallery from '../../elements/carousel';
 
